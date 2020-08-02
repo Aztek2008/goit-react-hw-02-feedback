@@ -1,5 +1,31 @@
 .FeedbackUI-controls {
   display: flex;
   width: 300px;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+.FeedbackUI-controls > button {
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid #323232;
+  color: #323232;
+  font-weight: bold;
+  border-radius: 10px;
+  outline: none;
+  height: 30px;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+#good:hover {
+  border: 1px solid #68ac65;
+  color: #68ac65;
+}
+#neutral:hover {
+  border: 1px solid #8e8e8e;
+  color: #8e8e8e;
+}
+#bad:hover {
+  border: 1px solid #d86d6d;
+  color: #d86d6d;
 }
