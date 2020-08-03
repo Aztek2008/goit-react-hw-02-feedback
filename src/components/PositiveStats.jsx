@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Positive({ posCount }) {
+export default function PositiveStats({ posCount }) {
   return <p className="positive-data">Positive: {posCount}</p>;
 }

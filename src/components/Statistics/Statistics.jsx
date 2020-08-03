@@ -1,6 +1,6 @@
 import React from "react";
 import Notification from "../Notification";
-import Positive from "../Positive";
+import PositiveStats from "../PositiveStats";
 import "./Statistics.css";
 
 export default function Statistics({ statistic, totalVotes, positiveCount }) {
@@ -12,7 +12,7 @@ export default function Statistics({ statistic, totalVotes, positiveCount }) {
       <p>Neutral: {statistic.neutral}</p>
       <p>Bad: {statistic.bad}</p>
       <p>Total feedbacks: {totalVotes}</p>
-      {positiveCount && <Positive posCount={positiveCount} />}
+      {positiveCount && <PositiveStats posCount={positiveCount} />}
     </div>
   ) : (
     <Notification message="No feedback given"></Notification>
