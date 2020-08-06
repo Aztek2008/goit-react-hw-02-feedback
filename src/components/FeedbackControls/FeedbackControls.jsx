@@ -1,10 +1,10 @@
 import React from "react";
 import FeedbackButton from "../FeedbackButton";
-import "./FeedbackControls.css";
+import styles from "./FeedbackControls.module.css";
 
 export default function FeedbackControls({ onAddVote }) {
   return (
-    <div className="FeedbackUI-controls">
+    <div className={styles.FeedbackUI - controls}>
       <FeedbackButton name="good" vote={onAddVote} />
       <FeedbackButton name="neutral" vote={onAddVote} />
       <FeedbackButton name="bad" vote={onAddVote} />
