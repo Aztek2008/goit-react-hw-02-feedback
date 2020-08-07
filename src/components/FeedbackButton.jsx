@@ -1,5 +1,5 @@
 import React from "react";
-import "./FeedbackControls/FeedbackControls.css";
+import "./FeedbackControls/FeedbackControls.module.css";
 
 export default function FeedbackButton({ name, vote }) {
   return (

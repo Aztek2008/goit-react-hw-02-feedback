@@ -26,10 +26,6 @@ class App extends Component {
   };
 
   render() {
-    console.log(
-      "countPositiveFeedbackPercentage:",
-      this.countPositiveFeedbackPercentage()
-    );
     return (
       <>
         <Section title="Please leave feedback">

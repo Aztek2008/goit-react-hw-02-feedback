@@ -4,7 +4,7 @@ import styles from "./FeedbackControls.module.css";
 
 export default function FeedbackControls({ onAddVote }) {
   return (
-    <div className={styles.FeedbackUI - controls}>
+    <div className={styles.FeedbackControls}>
       <FeedbackButton name="good" vote={onAddVote} />
       <FeedbackButton name="neutral" vote={onAddVote} />
       <FeedbackButton name="bad" vote={onAddVote} />

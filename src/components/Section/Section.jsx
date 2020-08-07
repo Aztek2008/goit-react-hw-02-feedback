@@ -1,9 +1,9 @@
 import React from "react";
-import "./Section.module.css";
+import styles from "./Section.module.css";
 
 export default function Section({ title, children }) {
   return (
-    <div className={styles.FeedbackUI - section}>
+    <div className={styles.FeedbackUI}>
       <h2>{title}</h2>
       {children}
     </div>

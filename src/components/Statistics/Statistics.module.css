@@ -1,3 +1,9 @@
-.positive-data {
+.positiveData {
   color: #68ac65;
+}
+
+p {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px 0;
 }
